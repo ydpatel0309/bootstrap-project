@@ -1,9 +1,13 @@
-/********** Template CSS **********/
 :root {
     --primary: #FEA116;
     --light: #F1F8FF;
     --dark: #0F172B;
 }
+
+/* for insivible scroll bar */
+::-webkit-scrollbar {
+    display: none;
+  }
 
 .fw-medium {
     font-weight: 500 !important;
@@ -76,7 +80,7 @@
 }
 
 
-/*** Navbar ***/
+/* navbar */
 .navbar-dark .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
@@ -98,8 +102,7 @@
     }
 }
 
-
-/*** Header ***/
+/* header */
 .carousel-caption {
     top: 0;
     left: 0;
@@ -113,6 +116,7 @@
 .carousel-control-next {
     width: 10%;
 }
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -362,7 +366,7 @@
 }
 
 .footer .footer-menu a {
-    margin-right: 15px;
+    margin-right: 15psx;
     padding-right: 15px;
     border-right: 1px solid rgba(255, 255, 255, .3);
 }
