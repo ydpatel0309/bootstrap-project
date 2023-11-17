@@ -44,7 +44,7 @@
     });
     
     
-    // Back to top button
+    // Back to top button right side 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.back-to-top').fadeIn('slow');
@@ -64,14 +64,14 @@
         time: 2000
     });
 
-    // Testimonials carousel
+    // Testimonials comment carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
         margin: 25,
-        dots: false,
-        loop: true,
-        nav : true,
+            dots: false,
+            loop: true,
+            nav : true,
         navText : [
             '<i class="bi bi-arrow-left"></i>',
             '<i class="bi bi-arrow-right"></i>'
